@@ -236,8 +236,7 @@ On a successful build the plugin jar will be present in the `target` directory.
 
 ##CONTACT
 
-For general inquiries, please contact <hadoop.on.lustre@seagate.com>.
-For technical inquiries, please contact Stephen Skory <stephen.skory@seagate.com>.
+Please contact <hadoop.on.lustre@seagate.com>.
 
 ##COPYRIGHT
 
