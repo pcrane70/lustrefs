@@ -183,10 +183,10 @@ public class LustreVolume extends RawLocalFileSystem{
         }
 
         File[] names = localf.listFiles();
-        Arrays.sort(names);
         if (names == null) {
-          return null;
-        }
+          throw new FileNotFoundException("Directory " + f + " does not exist.");
+	}
+	Arrays.sort(names);
         results = new FileStatus[names.length];
         int j = 0;
         for (int i = 0; i < names.length; i++) {

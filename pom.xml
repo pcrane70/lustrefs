@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <!-- from now, we will update version manually 
        and ignore maven snapshot features -->
-  <version>0.9.0</version>
+  <version>0.9.1</version>
   <name>lustrefs-hadoop</name>
   <url>http://maven.apache.org</url>
   <dependencies>
